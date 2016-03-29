@@ -9,7 +9,7 @@ import org.netlogo.extension.rungeKuta._
 import org.nlogo.api.ScalaConversions._
 
 class RungeKutaExtension extends DefaultClassManager {
-   
+
   def load (manager:PrimitiveManager) = {
     manager.addPrimitive("compute-SIR", new RungeKuta)
   }
