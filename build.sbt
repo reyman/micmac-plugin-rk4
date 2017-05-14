@@ -8,7 +8,7 @@ netLogoVersion := "6.0.1-RC1"
 
 netLogoExtName      := "rungekuta"
 
-netLogoClassManager := "RungeKutaExtension"
+netLogoClassManager := "org.netlogo.extension.rungeKuta.RungeKutaExtension"
 
 netLogoZipSources   := false
 
