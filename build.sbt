@@ -2,9 +2,9 @@ import org.nlogo.build.NetLogoExtension.autoImport._
 
 enablePlugins(org.nlogo.build.NetLogoExtension)
 
-scalaVersion := "2.10.0"
+scalaVersion := "2.12.0"
 
-netLogoVersion := "5.3.1"
+netLogoVersion := "6.0.1-RC1"
 
 netLogoExtName      := "rungekuta"
 

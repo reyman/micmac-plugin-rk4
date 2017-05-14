@@ -2,12 +2,14 @@ package org.netlogo.extension.rungeKuta
 
 import org.nlogo.api._
 import scala.Array
-import org.nlogo.api.Syntax._
+import org.nlogo.core.Syntax
+import org.nlogo.core.Syntax._
 import org.nlogo.api.ScalaConversions._
+import org.nlogo.api.Reporter
 
-class RungeKuta extends DefaultReporter {
+class RungeKuta extends Reporter {
   override def getSyntax(): Syntax =
-    Syntax.reporterSyntax(Array(NumberType, NumberType, NumberType, NumberType, NumberType, NumberType), ListType)
+    Syntax.reporterSyntax(right = List(NumberType, NumberType, NumberType, NumberType, NumberType, NumberType), ret= ListType)
 
   @throws(classOf[ExtensionException])
   @throws(classOf[LogoException])
