@@ -1,3 +1,3 @@
-Updated to netlogo 6.0 RC 1
+Updated to netlogo 7.0.2
 
 sbt compile package
