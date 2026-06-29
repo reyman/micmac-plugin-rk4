@@ -8,8 +8,7 @@ import org.nlogo.api.ScalaConversions._
 import org.nlogo.api.Reporter
 
 class RungeKuta extends Reporter {
-  override def getSyntax(): Syntax =
-    Syntax.reporterSyntax(right = List(NumberType, NumberType, NumberType, NumberType, NumberType, NumberType), ret= ListType)
+  override def getSyntax = reporterSyntax(right = List(NumberType, NumberType, NumberType, NumberType, NumberType, NumberType), ret= ListType)
 
   @throws(classOf[ExtensionException])
   @throws(classOf[LogoException])

@@ -1,16 +1,14 @@
-import org.nlogo.build.NetLogoExtension.autoImport._
+import org.nlogo.build.NetLogoExtension
 
-enablePlugins(org.nlogo.build.NetLogoExtension)
+enablePlugins(NetLogoExtension)
 
-scalaVersion := "2.12.0"
+scalaVersion := "3.7.0"
 
-netLogoVersion := "6.0.1-RC1"
+netLogoVersion := "7.0.2"
 
 netLogoExtName      := "rungekuta"
 
 netLogoClassManager := "org.netlogo.extension.rungeKuta.RungeKutaExtension"
-
-netLogoZipSources   := false
 
 scalaSource in Compile := baseDirectory.value / "src"
 
